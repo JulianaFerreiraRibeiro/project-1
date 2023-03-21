@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src = "./script/project.js" defer></script>
+    <link rel = "stylesheet" href = "./style/project.css">
+    <title>Projeto - M1</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <h1>Book Store</h1>
+            <ul>
+                <li><button class = "button">Todos</button></li>
+                <li><button class = "button">Drama</button></li>
+                <li><button class = "button">Horror</button></li>
+                <li><button class = "button">Romance</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class = search>
+            <input  class = "input-search" type = "text" placeholder="Pesquise aqui...">
+            <button>Pesquisar</button>
+        </section>
+        <section class = "section_of_products">
+            <ul class = "list_of_products">
+
+            </ul>
+        </section>
+        <section class="main-details">
+            <aside>
+              <div class="cart-title">
+                    <h4>Carrinho de compras</h4>
+              </div>
+              <div class="cart-empty">
+                    <h5>Carrinho Vazio</h5>
+                    <p>Adicione Itens</p>
+              </div>
     
+              <div class="cart-products">
+                <ul class="cart-list"></ul>
+              </div>
+              <div class="cart-details">
+                    <div class="details-values">
+                        <p>Quantidade:</p><span class = itemsQuantity>0</span>
+                        </div>
+                        <div class="details-values">
+                        <p>Total:</p>
+                        <span class = itemsValue>R$0,00</span>
+                    </div>
+    
+              </div>
+    
+              
+              </div>
+            </aside>
+          </section>
+    </main>
 </body>
 </html>

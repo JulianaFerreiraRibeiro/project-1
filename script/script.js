@@ -45,6 +45,7 @@ const footerTitle = document.querySelector('h5')
 const footerImages = document.querySelector('.media')
 const navLink1 = document.querySelector('.link_nav_1')
 const navLink3 = document.querySelector('.link_nav_3')
+const navLink2 = document.querySelector('.link_nav_2')
 const navTitle = document.querySelector('.title_nav')
 
 
@@ -53,8 +54,9 @@ backgroundButton.addEventListener('click', function(){
     footer.classList.toggle('dark_mode_footer')
     footerTitle.classList.toggle('dark_mode_footer_title')
     footerImages.classList.toggle('dark_mode_footer_images')
-    navLink1.classList.toggle('dark_mode_nav_link_1')
-    navLink3.classList.toggle('dark_mode_nav_link_3')
+    navLink1.classList.toggle('dark_mode_nav_link')
+    navLink2.classList.toggle('dark_mode_nav_link')
+    navLink3.classList.toggle('dark_mode_nav_link')
     navTitle.classList.toggle('dark_mode_nav_title')
     
 

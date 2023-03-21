@@ -159,11 +159,6 @@ footer img{
     border-bottom: 1px solid rgb(255,255,255);
 }
 
-.dark_mode_nav_link_1{
-    color: rgb(255, 255, 255)
-}
-
-
-.dark_mode_nav_link_3{
+.dark_mode_nav_link{
     color: rgb(255, 255, 255)
 }
