@@ -26,7 +26,7 @@ button_background.addEventListener('click', () => {
     button_send.classList.toggle("dark_screen_button_send")
     
     if(body.classList.contains("dark_screen")){
-        button_background.innerText = 'Modo claro'
+        button_background.innerText = 'Modo Claro'
     } else {
          button_background.innerText = 'Modo Escuro'
     }

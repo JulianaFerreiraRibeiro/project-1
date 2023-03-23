@@ -17,47 +17,36 @@
                 <li><button class = "button">Drama</button></li>
                 <li><button class = "button">Horror</button></li>
                 <li><button class = "button">Romance</button></li>
+                <li><button class = "dark_button">Modo Escuro</button></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class = search>
             <input  class = "input-search" type = "text" placeholder="Pesquise aqui...">
-            <button>Pesquisar</button>
+            <button class = "search-button">Pesquisar</button>
         </section>
         <section class = "section_of_products">
             <ul class = "list_of_products">
 
             </ul>
         </section>
-        <section class="main-details">
-            <aside>
-              <div class="cart-title">
-                    <h4>Carrinho de compras</h4>
-              </div>
-              <div class="cart-empty">
-                    <h5>Carrinho Vazio</h5>
-                    <p>Adicione Itens</p>
-              </div>
-    
-              <div class="cart-products">
-                <ul class="cart-list"></ul>
-              </div>
-              <div class="cart-details">
-                    <div class="details-values">
-                        <p>Quantidade:</p><span class = itemsQuantity>0</span>
-                        </div>
-                        <div class="details-values">
-                        <p>Total:</p>
-                        <span class = itemsValue>R$0,00</span>
-                    </div>
-    
-              </div>
-    
-              
-              </div>
-            </aside>
-          </section>
+        <section class = "cart">
+            <div class="cart_title_head">
+            <h4>Carrinho de Compras</h4>
+            </div>
+            <div class = "empty">
+                <h5 class = >Carrinho Vazio!</h5>
+            </div>
+            <div class = "cart_list_body">
+            <ul class = "cart_list"></ul>
+            </div>
+                
+            <div class = "items">
+                <p>Quantidade: <span class = "quantity">0</span></p>
+                <p>Valor Total: <span class = total_value_cart> 0 </span></p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
